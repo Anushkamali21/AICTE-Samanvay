@@ -1,35 +1,25 @@
 # Dependencies
 node_modules/
-.pnpm-store/
+package-lock.json
 
-# Builds
+# Production builds
 dist/
-dist-ssr/
 build/
 
-# Environment
+# Environment files
 .env
-.env.*
-!.env.example
+.env.local
+.env.production
+
+# Uploaded documents in development
+server/uploads/doc_*
 
 # Logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
 
-# Editors / OS
+# OS and Editor files
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# Test / coverage
-coverage/
-playwright-report/
-test-results/

@@ -1,0 +1,11 @@
+{
+  "name": "aicte-samanvay",
+  "version": "1.0.0",
+  "description": "AICTE SAMANVAY - Full-Stack Complaint Management and Tracking Portal",
+  "private": true,
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client"
+  }
+}
